@@ -2,6 +2,7 @@ vim
 mc
 git
 mercurial
+ipython
 python-pip
 python-virtualenv
 virtualenvwrapper
