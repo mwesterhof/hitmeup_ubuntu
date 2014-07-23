@@ -3,8 +3,14 @@ mc
 git
 mercurial
 ipython
+python-dev
 python-pip
 python-virtualenv
 virtualenvwrapper
 htop
 byobu
+postgresql
+postgresql-contrib
+postgresql-server-dev-9.3
+libxml2-dev
+libxslt1-dev
