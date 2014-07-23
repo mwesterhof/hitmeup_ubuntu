@@ -2,6 +2,8 @@
 
 set -e
 
+sudo cp files/locale /etc/default/locale
+
 sudo apt-get update
 sudo apt-get -y install `cat apt_packages |tr "\n" " "`
 sudo pip install -r pip_packages
@@ -27,4 +29,6 @@ ln -s ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
 ln -s ~/src/dotfiles/vim/vimrc ~/.vimrc
 
 echo ". ~/.bash_prompt" >> ~/.bashrc
+echo "set -o vi" >> ~/.bashrc
+
 echo | byobu-enable
