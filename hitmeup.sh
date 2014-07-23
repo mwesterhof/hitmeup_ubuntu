@@ -27,4 +27,4 @@ ln -s ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
 ln -s ~/src/dotfiles/vim/vimrc ~/.vimrc
 
 echo ". ~/.bash_prompt" >> ~/.bashrc
-echo "byobu" >> ~/.bashrc
+echo | byobu_enable
