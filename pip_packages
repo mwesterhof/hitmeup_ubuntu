@@ -1,4 +1,5 @@
 ipdb
+flake8
 requests
 BeautifulSoup
 clipboard
