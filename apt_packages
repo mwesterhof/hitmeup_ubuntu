@@ -2,6 +2,7 @@ vim
 mc
 git
 mercurial
+subversion
 ipython
 python-dev
 python-pip
