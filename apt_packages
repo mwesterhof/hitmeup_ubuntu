@@ -17,4 +17,3 @@ postgresql-contrib
 postgresql-server-dev-9.3
 libxml2-dev
 libxslt1-dev
-lib32z1-dev
