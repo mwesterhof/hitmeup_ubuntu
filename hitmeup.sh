@@ -12,7 +12,9 @@ mkdir ~/src
 cd ~/src
 
 git clone https://github.com/mephizzle/dotfiles.git
-git clone https://github.com/mephizzle/bash_prompt.git
+
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+chsh -s `which zsh`
 
 ln -s ~/src/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/src/bash_prompt/bash_prompt ~/.bash_prompt
@@ -28,7 +30,7 @@ rm ~/.vimrc
 ln -s ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
 ln -s ~/src/dotfiles/vim/vimrc ~/.vimrc
 
-echo ". ~/.bash_prompt" >> ~/.bashrc
-echo "set -o vi" >> ~/.bashrc
-
-echo | byobu-enable
+ln -s  ~/src/dotfiles/ack/ackrc ~/.ackrc
+ln -s  ~/src/dotfiles/gitconfig ~/.gitconfig
+ls -s  ~/src/dotfiles/tmux/tmux.conf ~/.tmux.conf
+ln -s  ~/src/dotfiles/zshell/zshrc ~/.zshrc
