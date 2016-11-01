@@ -19,12 +19,13 @@ chsh -s `which zsh`
 ln -s ~/src/dotfiles/gitconfig ~/.gitconfig
 ln -s ~/src/bash_prompt/bash_prompt ~/.bash_prompt
 
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 # plugin-only vimrc
 ln -s ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc
 
-vim +PluginInstall +qall
+vim +PlugInstall +qall
 
 rm ~/.vimrc
 ln -s ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
