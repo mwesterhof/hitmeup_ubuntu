@@ -3,6 +3,7 @@
 set -e
 
 sudo cp files/locale /etc/default/locale
+sudo add-apt-repository ppa:neovim-ppa/unstable
 
 sudo apt-get update
 sudo apt-get -y install `cat apt_packages |tr "\n" " "`
