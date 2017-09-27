@@ -12,7 +12,7 @@ sudo pip install -r pip_packages
 mkdir ~/src
 cd ~/src
 
-git clone https://github.com/mephizzle/dotfiles.git
+git clone https://github.com/mwesterhof/dotfiles.git
 
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 chsh -s `which zsh`
