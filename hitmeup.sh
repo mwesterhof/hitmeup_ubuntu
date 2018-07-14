@@ -25,7 +25,7 @@ curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubuserc
 
 # plugin-only vimrc
 ln -sf ~/src/dotfiles/vim/vimrc_plugins ~/.config/nvim/init.vim
-vim +PlugInstall +qall
+nvim +PlugInstall +qall
 rm ~/.config/nvim/init.vim
 ln -sf ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
 ln -sf ~/src/dotfiles/vim/vimrc ~/.config/nvim/init.vim
