@@ -16,7 +16,7 @@ cd ~/src
 git clone https://github.com/mwesterhof/dotfiles.git
 
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-chsh -s `which zsh`
+# chsh -s `which zsh`
 
 ln -sf ~/src/dotfiles/gitconfig ~/.gitconfig
 ln -sf ~/src/bash_prompt/bash_prompt ~/.bash_prompt
