@@ -31,6 +31,6 @@ ln -sf ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
 ln -sf ~/src/dotfiles/vim/vimrc ~/.config/nvim/init.vim
 
 ln -sf ~/src/dotfiles/ack/ackrc ~/.ackrc
-ls -sf ~/src/dotfiles/tmux/tmux.conf ~/.tmux.conf
+# ls -sf ~/src/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -sf ~/src/dotfiles/zshell/zshrc ~/.zshrc
 ln -sf ~/src/dotfiles/xonsh/xonsh.rc ~/.xonshrc
