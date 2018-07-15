@@ -28,7 +28,7 @@ ln -sf ~/src/dotfiles/vim/vimrc_plugins ~/.config/nvim/init.vim
 nvim +PlugInstall +qall
 rm ~/.config/nvim/init.vim
 ln -sf ~/src/dotfiles/vim/vimrc_plugins ~/.vimrc_plugins
-ln -sf ~/src/dotfiles/vim/vimrc ~/.config/nvim/init.vim
+ln -sf ~/src/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
 
 ln -sf ~/src/dotfiles/ack/ackrc ~/.ackrc
 # ls -sf ~/src/dotfiles/tmux/tmux.conf ~/.tmux.conf
