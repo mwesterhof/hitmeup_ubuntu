@@ -8,6 +8,7 @@ subversion
 ipython
 python-dev
 python-pip
+python3-pip
 python-virtualenv
 virtualenvwrapper
 htop
@@ -17,7 +18,7 @@ postgresql-server-dev-all
 libxml2-dev
 libxslt1-dev
 tmux
-ack-grep
+silversearcher-ag
 zsh
 git-core
 ruby-sass
@@ -26,3 +27,4 @@ curl
 xonsh
 fortune-mod
 cowsay
+gnome-shell-extensions

@@ -2,8 +2,8 @@
 
 set -e
 
-sudo cp files/locale /etc/default/locale
-sudo add-apt-repository ppa:neovim-ppa/unstable
+# sudo cp files/locale /etc/default/locale
+# sudo add-apt-repository ppa:neovim-ppa/unstable
 
 sudo apt-get update
 sudo apt-get -y install `cat apt_packages |tr "\n" " "`
@@ -11,6 +11,7 @@ sudo pip install -r pip_packages
 
 mkdir -p ~/src
 mkdir -p ~/dev
+
 cd ~/src
 
 git clone https://github.com/mwesterhof/dotfiles.git
@@ -34,3 +35,6 @@ ln -sf ~/src/dotfiles/ack/ackrc ~/.ackrc
 # ls -sf ~/src/dotfiles/tmux/tmux.conf ~/.tmux.conf
 ln -sf ~/src/dotfiles/zshell/zshrc ~/.zshrc
 ln -sf ~/src/dotfiles/xonsh/xonsh.rc ~/.xonshrc
+
+# misc
+npm install -g tldr
